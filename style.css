@@ -1,6 +1,6 @@
 /* Mattemilen – samma formspråk som i spelet: nattkörning, vägskyltar och gul vägmarkering. */
-@font-face { font-family: "Inter"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(fonts/inter.woff2) format("woff2"); }
-@font-face { font-family: "Space Grotesk"; font-style: normal; font-weight: 500 700; font-display: swap; src: url(fonts/space-grotesk.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-style: normal; font-weight: 400 700; font-display: swap; src: url(inter.woff2) format("woff2"); }
+@font-face { font-family: "Space Grotesk"; font-style: normal; font-weight: 500 700; font-display: swap; src: url(space-grotesk.woff2) format("woff2"); }
 
 :root {
   --bg: #0C1226; --bg2: #0F1630; --card: #151D3B; --card2: #1D2850; --line: #2B3769;
@@ -190,7 +190,7 @@ nav.main .btn { padding: 8px 14px; font-size: 14px; color: var(--on-sun); box-sh
 
 /* avslutning */
 .final { text-align: center; padding: 100px 0 90px; background:
-  linear-gradient(180deg, rgba(12, 18, 38, .55), rgba(12, 18, 38, .78) 55%, var(--bg) 96%), url(img/stopp/s49.jpg) center / cover no-repeat; }
+  linear-gradient(180deg, rgba(12, 18, 38, .55), rgba(12, 18, 38, .78) 55%, var(--bg) 96%), url(s49.jpg) center / cover no-repeat; }
 .final h2 { font-size: clamp(34px, 5vw, 52px); }
 .final .btns { justify-content: center; margin-top: 26px; }
 
